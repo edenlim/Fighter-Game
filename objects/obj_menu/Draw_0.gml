@@ -12,4 +12,4 @@ for (n = 0; n < array_length_1d(menu); n += 1;)
 }
 
 
-draw_sprite(sprite_index, 0, x + 16, y - 20 + (mpos * space));
+draw_sprite(sprite_index, 0, x, y + (mpos * space));
